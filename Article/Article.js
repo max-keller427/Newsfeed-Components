@@ -34,7 +34,7 @@ passing in each article as a parameter to the constructor.
 */
 
 let articles = document.querySelectorAll('.article');
-articles.forEach((article) => { return new Article(article)}); 
+articles.forEach(something => new Article(something)); 
 
 
 
